@@ -1,0 +1,59 @@
+
+
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+/* navigation bar*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+
+main {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	background: white;
+	
+}
+img {
+	max-width: 100%;
+	height: auto;
+	padding: 2px;
+}
+footer {
+	text-align: center;
+}
+.section {
+	text-transform: capitalize;
+}
+table {
+	display: inline-block;
+}
+.list {
+	background-color: aqua;
+}
+#characters {
+	background-color: lightblue;
+	color: black;
+}
+/* responsive design*/
+/* mobile*/
+@media screen and (max-width: 440px) {
+body {
+	position: static;
+}
+}
+
+/*desktop*/
+@media screen and (min-width: 440) {
+	margin top
+}
+
+
