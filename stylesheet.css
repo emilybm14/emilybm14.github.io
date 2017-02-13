@@ -20,6 +20,7 @@ main {
 	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
 	background: white;
+	margin-top: 100px;
 	
 }
 img {
@@ -60,28 +61,38 @@ a:visited{
 /* responsive design*/
 /* mobile*/
 @media screen and (max-width: 440px) {
-body {
-	position: absolute;
+img {
 	width: 100%;
 	border: white solid 1px;
     padding: 0px;
-	margin-top: 170px;
+	position: absolute;
+	margin-top: 315px;
+}
+main{
+	margin-top: 315px;
 }
 }
 
 /* tablet*/
-@media screen and (max-width: 770px) {
-body {
+@media screen and (min-width: 440px) {
+img {
 	width: 100%;
 	border: white solid 1px;
     padding: 0px;
 	position: absolute;
-	margin-top: 109px;
+	margin-top: 110px;
 }
-}
-/*desktop*/
-@media screen and (min-width: 440) {
 
 }
+/* desktop*/
+@media screen and (max-width: 1200px) {
+img {
+	margin-top: 130px;
+}
+main{
+	margin-top: 315px;
+}
+}
+
 
 
