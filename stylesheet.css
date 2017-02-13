@@ -27,8 +27,7 @@ img {
 	max-width: 100%;
     height: auto;
     margin: 0px;
-    border: white solid 1px;
-    padding: 0px;
+
 }
 footer {
 	text-align: center;
@@ -65,11 +64,6 @@ img {
 	width: 100%;
 	border: white solid 1px;
     padding: 0px;
-	position: absolute;
-	margin-top: 315px;
-}
-main{
-	margin-top: 315px;
 }
 }
 
@@ -79,18 +73,14 @@ img {
 	width: 100%;
 	border: white solid 1px;
     padding: 0px;
-	position: absolute;
-	margin-top: 110px;
+
 }
 
 }
 /* desktop*/
 @media screen and (max-width: 1200px) {
 img {
-	margin-top: 130px;
-}
-main{
-	margin-top: 315px;
+	margin-top: 50px;
 }
 }
 
