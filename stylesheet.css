@@ -45,18 +45,36 @@ table {
 	background-color: lightblue;
 	color: black;
 }
+
+table {
+	width: 100%;
+	height: auto;
+}
+
+a{ 
+	color: pink;
+	 }
+a:visited{
+	color: green;
+}
 /* responsive design*/
 /* mobile*/
 @media screen and (max-width: 440px) {
 body {
 	position: absolute;
-	margin-top: 150px;
+	width: 100%;
+	border: white solid 1px;
+    padding: 0px;
+	margin-top: 170px;
 }
 }
 
 /* tablet*/
 @media screen and (max-width: 770px) {
 body {
+	width: 100%;
+	border: white solid 1px;
+    padding: 0px;
 	position: absolute;
 	margin-top: 109px;
 }
