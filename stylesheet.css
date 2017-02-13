@@ -4,7 +4,7 @@ header {
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 /* navigation bar*/
 	margin: 0;
 	padding: 0;
@@ -17,15 +17,17 @@ header {
 
 
 main {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
 	background: white;
 	
 }
 img {
 	max-width: 100%;
-	height: auto;
-	padding: 2px;
+    height: auto;
+    margin: 0px;
+    border: white solid 1px;
+    padding: 0px;
 }
 footer {
 	text-align: center;
@@ -47,13 +49,21 @@ table {
 /* mobile*/
 @media screen and (max-width: 440px) {
 body {
-	position: static;
+	position: absolute;
+	margin-top: 150px;
 }
 }
 
+/* tablet*/
+@media screen and (max-width: 770px) {
+body {
+	position: absolute;
+	margin-top: 109px;
+}
+}
 /*desktop*/
 @media screen and (min-width: 440) {
-	margin top
+
 }
 
 
